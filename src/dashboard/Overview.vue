@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <h2 class="mt-4">This Week Statistics</h2>
+    <h2 class="mt-4">This Week Statistics List</h2>
 
     <Chart
       :size="{ width: 800, height: 400 }"
