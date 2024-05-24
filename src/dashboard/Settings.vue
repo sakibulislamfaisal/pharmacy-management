@@ -17,6 +17,6 @@
 }
 
 .tab a.router-link-active {
-  border-bottom: 3px solid var(--brand-color);
+  border-bottom: 3px solid #7a1010;
 }
 </style>

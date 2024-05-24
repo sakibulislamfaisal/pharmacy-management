@@ -61,12 +61,28 @@ export default {
   <div class="pt-3">
     <div class="text-center" v-if="getting">Loading...</div>
     <div v-else>
-      <label class="block">Full Name</label>
-      <input type="text" v-model="accountSettings.fullName" />
-      <label class="mt-3 block">Email</label>
-      <input type="text" v-model="accountSettings.email" />
-      <label class="mt-3 block">Phone</label>
-      <input type="text" v-model="accountSettings.phone" />
+      <label class="text-start m-2">Full Name</label>
+      <input
+        type="text"
+        v-model="accountSettings.fullName"
+        style="width: 300px"
+        class="border-2 border-gray-300 p-2"
+        placeholder="Full Name"
+      />
+      <label class="text-start m-2">Email</label>
+      <input
+        type="text"
+        v-model="accountSettings.email"
+        style="width: 300px"
+        class="border-2 border-gray-300 p-2"
+        placeholder="Email address"
+      />
+      <label class="text-start m-2">Phone</label>
+      <input
+        type="text"
+        v-model="accountSettings.phone"
+        placeholder="Contact "
+      />
       <br />
       <TheButton class="inline-block mt-4" :loading="saving" @click="saveData">
         Save

@@ -29,7 +29,7 @@ export default {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: var(--brand-color);
+  background-color: #7a1010;
   color: #f0faf5;
 }
 

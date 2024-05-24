@@ -47,7 +47,7 @@ export default {
 .the-button button {
   padding: 9px 22px;
   font-size: 15px;
-  background-color: var(--brand-color);
+  background-color: #7a1010;
   border: 1px solid var(--brand-color);
   color: #fff;
   cursor: pointer;

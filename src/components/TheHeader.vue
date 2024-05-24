@@ -205,7 +205,7 @@ export default {
 .avatar {
   width: 33px;
   height: 33px;
-  background-color: var(--brand-color);
+  background-color: #7a1010;
   border-radius: 33px;
   display: flex;
   justify-content: center;
